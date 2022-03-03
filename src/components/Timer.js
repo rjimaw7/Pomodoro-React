@@ -18,7 +18,6 @@ function Timer() {
   const [mode, setMode] = useState("work"); // work/break/null
   const [secondsLeft, setSecondsLeft] = useState(0);
   const [isDisabled, setIsDisabled] = useState(false);
-  const [titleSeconds, setTitleSeconds] = useState(0);
 
   const secondsLeftRef = useRef(secondsLeft);
   const isPausedRef = useRef(isPaused);
